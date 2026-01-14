@@ -3,31 +3,37 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - master   # change if your default branch is 'master'
+      - master  # or your default branch
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout the repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm ci
 
+      # 4️⃣ Build React app
       - name: Build React app
         run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      # 5️⃣ Upload the build folder as artifact
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2  # ✅ updated version
         with:
           path: build
 
+      # 6️⃣ Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
