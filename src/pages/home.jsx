@@ -23,6 +23,15 @@ export function Home() {
             <ResponsiveText variant="h2" color="text.secondary">
               Software Developer - Robotics, sensors
             </ResponsiveText>
+            <ResponsiveText variant="h2" >
+              <br/>
+              <br/>
+              <br/>
+              
+            </ResponsiveText>
+            <ResponsiveText variant="h3">
+              In my time at Oregon State University, I have worked on:
+            </ResponsiveText>
 
             <List>
                 <ListItem disablePadding>

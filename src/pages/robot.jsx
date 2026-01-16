@@ -64,21 +64,20 @@ export function Robot() {
           }}
         >
           <Stack spacing={4}>
-
+            <ResponsiveText variant="h3">
+  About and Achievements
+</ResponsiveText>
 
       <ResponsiveText variant="h5" color="text.secondary">
-        I served as <Em>Software Lead</Em> and <Em>Integration Engineer</Em> for the Mars Rover Robotics Club at Oregon State University,
-        where I was responsible for architecting, developing, and integrating the rover’s core software systems.
-        Our team designs rover platforms to compete in international challenges modeled after real-world Martian exploration tasks,
-        primarily the <Em>Canadian International Rover Challenge (CIRC)</Em>.
+        As Software Lead for the Mars Rover Robotics Club at Oregon State University, I led design and development work for our autonomous and operator controlled rover systems, 
+        competing in international challenges modeled after real-world Martian exploration tasks.
       </ResponsiveText>
 
       <ResponsiveText variant="h5" color="text.secondary">
-        During my time as Software Lead, I led the software architecture and integration efforts that resulted in 
-        <Em> first-place finishes at CIRC every year</Em>, typically with a team of 2-3 total people.
-        Most recently, the rover achieved the <Em>highest overall score recorded at the competition since 2022</Em>,
-        demonstrating both technical maturity and system-level reliability across multiple competition cycles. I have <Em>coordinated or written
-        all live code running on our rover.</Em>
+        Our team primarily competes in the Canadian International Rover Challenge (CIRC). As Software Lead, 
+        led my team to secure first place at CIRC each year, demonstrating consistent and significant growth. 
+        Most recently, we achieved the highest overall score recorded at the competition since 2022.
+
       </ResponsiveText>
 
             
@@ -103,7 +102,7 @@ export function Robot() {
 </ResponsiveText>
 
 <ResponsiveText variant="h5" color="text.secondary">
-  I lead a rotating team of 3 software engineers for the rover’s <Em>6 DoF robotic arm</Em> using <Em>C++</Em>, <Em>ROS2</Em>,
+  I led a rotating team of 3 software engineers for the rover’s <Em>6 DoF robotic arm</Em> using <Em>C++</Em>, <Em>ROS2</Em>,
   and <Em>MoveIt2</Em> to enable advanced motion planning and precise manipulation.
   I optimized our <Em>inverse kinematics</Em> and <Em>collision-aware trajectory execution</Em>,
   allowing the arm to operate safely and reliably in constrained environments.
@@ -127,9 +126,13 @@ export function Robot() {
 </ResponsiveText>
 
 <ResponsiveText variant="h5" color="text.secondary">
+  My senior year, managed the integration of <Em>4 seperate software teams </Em> additions to the Rovers code, requring optimizations and rewrites of much existing code to provide necessary compute
+</ResponsiveText>
+
+<ResponsiveText variant="h5" color="text.secondary">
   I architected the rover’s core control system using <Em>ROS2</Em> with <Em>Python and C++</Em>,
   coordinating motion control, sensor integration, and autonomous behavior execution.
-  I implemented communication pipelines across <Em>CAN</Em>, <Em>SPI</Em>, <Em>I2C</Em>, and <Em>USB</Em>
+  I implemented communication pipelines across <Em>CAN</Em>, <Em>SPI</Em>, <Em>I2C</Em>, and <Em>USB </Em>
    to reliably interface with onboard sensors and actuators.
 </ResponsiveText>
 
@@ -140,9 +143,7 @@ export function Robot() {
   enabling <Em>NAV2</Em> to plan reliable paths and maintain smooth, precise motion.
 </ResponsiveText>
 
-<ResponsiveText variant="h5" color="text.secondary">
-  Managed the integration of <Em>4 seperate software teams </Em> additions to the Rovers code, requring optimizations and rewrites of much existing code to provide necessary compute
-</ResponsiveText>
+
 
 
 
@@ -152,6 +153,11 @@ export function Robot() {
 
             <ResponsiveText variant="h3">
   Groundstation
+</ResponsiveText>
+
+<ResponsiveText variant="h5" color="text.secondary">
+  Ran dozens of user case studies with control schemes, displayed information, and remote issue fixing to determine optimal
+  configuration for our operators.
 </ResponsiveText>
 
 <ResponsiveText variant="h5" color="text.secondary">
@@ -218,7 +224,7 @@ export function Robot() {
 
 </ResponsiveText>
 <ResponsiveText variant="h5" color="text.secondary">
-  Custom RC controller interface for safe and reliable rover teleoperation
+  Custom RC controller interface for safe and easy rover teleoperation
 
 </ResponsiveText>
 
