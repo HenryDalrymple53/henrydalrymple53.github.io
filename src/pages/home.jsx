@@ -1,5 +1,6 @@
 import { Container, Typography, Box, Button, Stack } from "@mui/material";
 import { List, ListItem, ListItemText } from "@mui/material";
+import { CenteredImage } from "../components/CenteredImage";
 
 export function Home() {
   return (
@@ -32,7 +33,11 @@ export function Home() {
                             </Typography>
                             <Typography variant="body1" color="text.secondary">
                             Autonomous systems, perception pipelines, and advanced control schemes for rover and 6 DoF robotic arm
-                            <img src="/photos/intelligence.gif" height="500px" width="750px"></img>
+                            <CenteredImage
+                                          src="/photos/intelligence.gif"
+                                          alt="Weather image"
+                                          maxWidth={500}
+                              />
                             </Typography>
                         </>
                         }
@@ -48,7 +53,11 @@ export function Home() {
                             </Typography>
                             <Typography variant="body1" color="text.secondary">
                             Collection and comprehension of large array of sensors using diverse visualization methods
-                            <img src="/photos/sensor.gif" height="500px" width="750px"></img>
+                            <CenteredImage
+                                          src="/photos/sensor.gif"
+                                          alt="Weather image"
+                                          maxWidth={500}
+                              />
                             </Typography>
                         </>
                         }
@@ -66,7 +75,11 @@ export function Home() {
                             <Typography variant="body1" color="text.secondary">
                             Creating robust compression and transportation pipelines for time sensitive information across distant and lossy environments
                             </Typography>
-                            <img src="/photos/comms.png" height="500px" width="750px"></img>
+                            <CenteredImage
+                                          src="/photos/comms.png"
+                                          alt="Weather image"
+                                          maxWidth={500}
+                              />
 
                         </>
                         }
@@ -82,7 +95,11 @@ export function Home() {
                             <Typography variant="body1" color="text.secondary">
                             Creating real-time control and status communication pipelines tied with intuitive displays for best operator performance
                             </Typography>
-                            <img src="/photos/UI.png" height="500px" width="750px"></img>
+                            <CenteredImage
+                                          src="/photos/UI.png"
+                                          alt="Weather image"
+                                          maxWidth={500}
+                              />
                         </>
                         }
                     />
@@ -97,7 +114,11 @@ export function Home() {
                             <Typography variant="body1" color="text.secondary">
                             Generate a variety of tools to increase quality of life and efficiency for developers and normal users
                             </Typography>
-                            <img src="/photos/tooling.png" height="500px" width="750px"></img>
+                            <CenteredImage
+                                          src="/photos/tooling.png"
+                                          alt="Weather image"
+                                          maxWidth={500}
+                              />
                         </>
                         }
                     />
