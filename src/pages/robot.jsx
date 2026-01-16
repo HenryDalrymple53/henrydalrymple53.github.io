@@ -34,7 +34,7 @@ export function Robot() {
             </ResponsiveText>
 
             <ResponsiveText variant="h2" color="text.secondary">
-              Lead Software, integration engineer
+              Lead Software, Integration engineer
             </ResponsiveText>
             
             <div
@@ -74,10 +74,11 @@ export function Robot() {
       </ResponsiveText>
 
       <ResponsiveText variant="h5" color="text.secondary">
-        During my time as Software Lead, I led the software architecture and integration efforts that resulted in
-        <Em>first-place finishes at CIRC every year</Em>, typically with a team of 2-3 total people.
+        During my time as Software Lead, I led the software architecture and integration efforts that resulted in 
+        <Em> first-place finishes at CIRC every year</Em>, typically with a team of 2-3 total people.
         Most recently, the rover achieved the <Em>highest overall score recorded at the competition since 2022</Em>,
-        demonstrating both technical maturity and system-level reliability across multiple competition cycles.
+        demonstrating both technical maturity and system-level reliability across multiple competition cycles. I have <Em>coordinated or written
+        all live code running on our rover.</Em>
       </ResponsiveText>
 
             
@@ -102,7 +103,7 @@ export function Robot() {
 </ResponsiveText>
 
 <ResponsiveText variant="h5" color="text.secondary">
-  I lead a team of 3 software engineers for the rover’s <Em>6 DoF robotic arm</Em> using <Em>C++</Em>, <Em>ROS2</Em>,
+  I lead a rotating team of 3 software engineers for the rover’s <Em>6 DoF robotic arm</Em> using <Em>C++</Em>, <Em>ROS2</Em>,
   and <Em>MoveIt2</Em> to enable advanced motion planning and precise manipulation.
   I optimized our <Em>inverse kinematics</Em> and <Em>collision-aware trajectory execution</Em>,
   allowing the arm to operate safely and reliably in constrained environments.
@@ -135,7 +136,7 @@ export function Robot() {
 <ResponsiveText variant="h5" color="text.secondary">
   Using drivebase encoders, a <Em>9-axis IMU</Em>, and additional onboard sensors,
   I implemented <Em>sensor fusion</Em> and <Em>state estimation</Em> to provide accurate position and orientation data.
-  I integrated <Em>RTK GPS</Em> into the localization stack to correct drift and improve absolute positioning, giving us <Em>Centimeter global accuracy</Em>
+  I integrated <Em>RTK GPS</Em> into the localization stack to correct drift and improve absolute positioning, giving us <Em>Centimeter global accuracy </Em>
   enabling <Em>NAV2</Em> to plan reliable paths and maintain smooth, precise motion.
 </ResponsiveText>
 
@@ -161,8 +162,8 @@ export function Robot() {
 </ResponsiveText>
 
 <ResponsiveText variant="h5" color="text.secondary">
-  Co-developed and extended a <Em>C#</Em> application built in <Em>Unity</Em>
-  that provides comprehensive graphical tools for rover control and monitoring.
+  Co-developed and extended a <Em>C#</Em> application built in <Em>Unity </Em>
+   that provides comprehensive graphical tools for rover control and monitoring.
   This includes satellite imagery overlays, live <Em>3D rover and arm models</Em>,
   arm pose planners, dynamic pose execution, and real-time system health visualization.
 </ResponsiveText>
@@ -180,7 +181,7 @@ export function Robot() {
 </ResponsiveText>
 
 <ResponsiveText variant="h5" color="text.secondary">
-  I developed a custom <Em>RTSP GStreamer</Em> video pipeline leveraging <Em>H.265 hardware encoding</Em>
+  I developed a custom <Em>RTSP GStreamer</Em> video pipeline leveraging <Em>H.265 hardware encoding </Em>
   to achieve low-latency, high-stability video streaming.
   I optimized image transport, telemetry routing, and synchronized sensor streams so the groundstation could
   monitor and command the rover effectively during both autonomous operation and manual control.
@@ -188,11 +189,9 @@ export function Robot() {
 
 <ResponsiveText variant="h5" color="text.secondary">
   Due to my robust communication overhaul, I <Em>Reduced video bandwidth by 70%</Em> and <Em>Increased responsiveness by 50%</Em>, 
-  our robot being the <Em>only robot to complete comms task</Em>, which required navigation to NLOS markers up to 1km away
+   leading to our robot being the <Em>only robot to complete comms task</Em>, which required navigation to non line of sight (NLOS) markers up to 1km away
 </ResponsiveText>
 
-<ResponsiveText variant="h5" color="text.secondary">
-</ResponsiveText>
 
 <ResponsiveText variant="h3">
   Miscellaneous tooling I developed

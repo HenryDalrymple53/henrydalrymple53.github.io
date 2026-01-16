@@ -56,7 +56,7 @@ export function Work() {
 
             <ResponsiveText variant="h5" color="text.secondary">
               The imaging stations are optimized for nighttime operation using
-              <Em>infrared-sensitive cameras</Em> and <Em>controlled IR illumination</Em>,
+              <Em> infrared-sensitive cameras</Em> and <Em>controlled IR illumination</Em>,
               enabling high-quality image capture in complete darkness without disturbing wildlife.
               I led the end-to-end system development, spanning mechanical design, electronics,
               firmware, and higher-level software.
@@ -73,9 +73,11 @@ export function Work() {
 
             <ResponsiveText variant="h5" color="text.secondary">
               I was responsible for the complete system architecture, including
-              <Em>custom electronics</Em>, <Em>embedded firmware</Em>, and deployment-ready enclosures.
+              <Em> custom electronics</Em>, <Em>embedded firmware</Em>, and deployment-ready enclosures.
               The platforms are designed for continuous operation over months with minimal
-              maintenance, emphasizing reliability, power efficiency, and fault tolerance.
+              maintenance, emphasizing reliability, power efficiency, and fault tolerance. Powered
+              by ESP32's and connected through a <Em>cellular network</Em>, remote users can be informed of status
+              at all times.
             </ResponsiveText>
             <CenteredImage
               src="/photos/work/imaging.jpeg"
