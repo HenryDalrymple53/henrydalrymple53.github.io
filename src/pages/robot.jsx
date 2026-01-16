@@ -129,7 +129,7 @@ export function Robot() {
   I architected the rover’s core control system using <Em>ROS2</Em> with <Em>Python and C++</Em>,
   coordinating motion control, sensor integration, and autonomous behavior execution.
   I implemented communication pipelines across <Em>CAN</Em>, <Em>SPI</Em>, <Em>I2C</Em>, and <Em>USB</Em>
-  to reliably interface with onboard sensors and actuators.
+   to reliably interface with onboard sensors and actuators.
 </ResponsiveText>
 
 <ResponsiveText variant="h5" color="text.secondary">
@@ -211,7 +211,7 @@ export function Robot() {
 
 </ResponsiveText>
 <ResponsiveText variant="h5" color="text.secondary">
-    IMU and magnetometer noise characterization tool to determine optimal sensor placement on the rover<br/>
+    Old 1st place winning React based groundstation was created in 14 weeks with no previous web-dev or js experience<br/>
 
 </ResponsiveText>
 <ResponsiveText variant="h5" color="text.secondary">

@@ -62,6 +62,11 @@ export function Work() {
               firmware, and higher-level software.
             </ResponsiveText>
 
+            <ResponsiveText variant="h5" color="text.secondary">
+              Collaborated and organized with graduate, PhD, undergrad, and general assitant employees with their projects and needs,
+              completing a vast variety of tasks from helping tasks such as building office networks and configuring lab NAS drives
+            </ResponsiveText>
+
             <ResponsiveText variant="h3">
               System Design and Deployment
             </ResponsiveText>
