@@ -114,7 +114,7 @@ export function Work() {
 
             <ResponsiveText variant="h5" color="text.secondary">
               Higher-level software manages <Em>data organization</Em>,
-              <Em>metadata tagging</Em>, and post-processing workflows,
+              <Em> metadata tagging</Em>, and post-processing workflows,
               supporting efficient analysis of large image datasets collected
               over extended periods.
             </ResponsiveText>
