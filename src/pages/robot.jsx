@@ -1,7 +1,8 @@
 import { RobotText } from '../components/RobotText';
 import RobotViewer from '../components/RobotViewer';
-import { Container, Typography, Box, Stack } from "@mui/material";
+import { Container, Box, Stack } from "@mui/material";
 import { CenteredImage } from '../components/CenteredImage';
+import { ResponsiveText } from '../components/ResponsiveText';
 const Em = ({ children }) => (
   <span
     style={{
@@ -27,13 +28,13 @@ export function Robot() {
           }}
         >
           <Stack spacing={4}>
-            <Typography variant="h1" component="h1" fontWeight={700}>
+            <ResponsiveText variant="h1" component="h1" fontWeight={700}>
               Mars Rover software
-            </Typography>
+            </ResponsiveText>
 
-            <Typography variant="h2" color="text.secondary">
+            <ResponsiveText variant="h2" color="text.secondary">
               Explore mars, our rover, and my contribution
-            </Typography>
+            </ResponsiveText>
             
             <div
               style={{
@@ -64,15 +65,15 @@ export function Robot() {
           <Stack spacing={4}>
 
 
-            <Typography variant="h3">
+            <ResponsiveText variant="h3">
               About and Achievements
-            </Typography>
-            <Typography variant="h5" color="text.secondary">
+            </ResponsiveText>
+            <ResponsiveText variant="h5" color="text.secondary">
               The Mars Rover Robotics Club at Oregon State University designs and develops autonomous rover systems to compete in international challenges modeled after real-world Martian exploration tasks. The team primarily competes in the Canadian International Rover Challenge (CIRC).
-            </Typography>
-            <Typography variant="h5" color="text.secondary">
+            </ResponsiveText>
+            <ResponsiveText variant="h5" color="text.secondary">
               During my time as Software Lead, the team has secured first place at CIRC each year, demonstrating consistent and significant growth. Most recently, we achieved the highest overall score recorded at the competition since 2022.
-            </Typography>
+            </ResponsiveText>
 
             
             
@@ -91,11 +92,11 @@ export function Robot() {
               />
             
 
-            <Typography variant="h3">
+            <ResponsiveText variant="h3">
   Robotic Arm
-</Typography>
+</ResponsiveText>
 
-<Typography variant="h5" color="text.secondary">
+<ResponsiveText variant="h5" color="text.secondary">
   The rover's 6 DoF robotic arm leverages <Em>C++</Em>, <Em>ROS2</Em>, and <Em>MoveIt2</Em> for advanced motion planning,
   allowing for precise <Em>inverse kinematics</Em> and collision-aware trajectory execution.
   Motor control is handled over <Em>CAN</Em> using multiple <Em>ODrive S1</Em> drives, supporting smooth,
@@ -104,14 +105,14 @@ export function Robot() {
   while preset poses and dynamic trajectory adjustments enable complex task sequences.
   Optimized image transport and telemetry allow the groundstation to monitor and command the arm efficiently,
   making it capable of precise, semi-autonomous operations in challenging environments.
-</Typography>
+</ResponsiveText>
 
 
-            <Typography variant="h3">
+            <ResponsiveText variant="h3">
   Chassis
-</Typography>
+</ResponsiveText>
 
-<Typography variant="h5" color="text.secondary">
+<ResponsiveText variant="h5" color="text.secondary">
   <Em>ROS2</Em> with <Em>Python</Em> orchestrates the rover’s core logic and control systems, managing everything from motion planning to sensor integration.
   Telemetry is transmitted over <Em>RTSP</Em>, while the system commands actuators and peripherals using <Em>CAN</Em>, <Em>SPI</Em>, <Em>I2C</Em>, and <Em>USB</Em>
   communication channels for sensing and control.
@@ -123,14 +124,14 @@ export function Robot() {
   for smooth, low-latency, and reliable communications.
   Optimized image transport, telemetry routing, and synchronized sensor streams allow the groundstation to monitor and command the rover efficiently,
   supporting high-level autonomous operations and precise real-time intervention when needed.
-</Typography>
+</ResponsiveText>
 
 
-            <Typography variant="h3">
+            <ResponsiveText variant="h3">
   Groundstation
-</Typography>
+</ResponsiveText>
 
-<Typography variant="h5" color="text.secondary">
+<ResponsiveText variant="h5" color="text.secondary">
   Our control computer leverages a custom <Em>RTSP GStreamer</Em> pipeline for video transmission,
   ensuring low-latency, high-stability streaming from multiple rover cameras.
   A <Em>C#</Em> application built in <Em>Unity</Em> provides comprehensive graphical tools for operator situational awareness and control,
@@ -141,7 +142,7 @@ export function Robot() {
   high-bandwidth video and sensor streams, ensuring robust connectivity even under interference or challenging conditions.
   Operators have full control over network parameters, rover status, and subsystem settings, allowing them to dynamically
   adjust communication priorities, diagnose performance issues, and fine-tune control loops in real time.
-</Typography>
+</ResponsiveText>
 
 
 
