@@ -133,8 +133,8 @@ export function Work() {
 
             <ResponsiveText variant="h5" color="text.secondary">
               I developed software to enable mobile robots to navigate using
-              <Em>GPS-based waypoint following</Em> and to track and follow people using
-              <Em>vision-based detection</Em>.
+              <Em> GPS-based waypoint following</Em> and to track and follow people using
+              <Em> vision-based detection</Em>.
               These systems combined sensor input, control logic, and real-time feedback
               to support both autonomous and supervised operation.
             </ResponsiveText>
